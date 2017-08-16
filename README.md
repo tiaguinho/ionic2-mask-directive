@@ -1,12 +1,12 @@
-#ionic2-mask-directive
+# ionic2-mask-directive
 
-##Install
+## Install
 
 ```bash
 npm i ionic2-mask-directive --save
 ```
 
-##Import directive
+## Import directive
 
 Import the directive into your app module.
 
@@ -39,7 +39,7 @@ export class AppModule {
 }
 ```
 
-##Usage
+## Usage
 
 To configure the mask, you can use 3 types of characters.
 
@@ -47,7 +47,7 @@ To configure the mask, you can use 3 types of characters.
 * 9 - only numbers;
 * A - only letters;
 
-##Example
+## Example
 
 ```html
 <!-- phone number in Brasil -->
@@ -56,11 +56,11 @@ To configure the mask, you can use 3 types of characters.
 <ion-input type="text" mask="999.999.999-99" placeholder="CPF" [(ngModel)]="user.document" required></ion-input>
 ```
 
-##Contribute
+## Contribute
 
 Any pull-request and issue is more than welcome.
 
-##License
+## License
 
 MIT 
  
