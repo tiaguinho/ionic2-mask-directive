@@ -1,5 +1,7 @@
 # ionic2-mask-directive
 
+Ionic2MaskDirective help you add mask on ion-input with just a directive and a very simple configuration.
+
 ## Install
 
 ```bash
