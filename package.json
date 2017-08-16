@@ -1,0 +1,41 @@
+{
+  "name": "ionic2-mask-directive",
+  "version": "1.0.0",
+  "description": "directive for mask ion-input on ionic2",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --noStrictGenericChecks",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiaguinho/ionic2-mask-directive.git"
+  },
+  "keywords": [
+    "ionic2",
+    "ion-input",
+    "mask"
+  ],
+  "author": "Tiago Temporin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiaguinho/ionic2-mask-directive/issues"
+  },
+  "homepage": "https://github.com/tiaguinho/ionic2-mask-directive#readme",
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@angular/common": "4.1.3",
+    "@angular/compiler": "4.1.3",
+    "@angular/compiler-cli": "4.1.3",
+    "@angular/core": "4.1.3",
+    "@angular/forms": "4.1.3",
+    "@angular/http": "4.1.3",
+    "@angular/platform-browser": "4.1.3",
+    "@angular/platform-browser-dynamic": "4.1.3",
+    "rxjs": "5.4.0",
+    "zone.js": "0.8.12"
+  }
+}
