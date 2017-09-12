@@ -14,7 +14,7 @@ export class Ionic2MaskDirective {
 
     @HostListener('keyup', ['$event'])
     onKeyUp($event: any) {
-        if ($event.keyCode !== 13) {
+        if ($event.keyCode !== 13 && $event.keyCode !== 9) {
             let value = this.control.control.value;
 
             this.control.control.setValue(this.format(value));
