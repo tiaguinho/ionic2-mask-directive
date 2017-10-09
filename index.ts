@@ -11,7 +11,15 @@ export class Ionic2MaskDirective {
     constructor(
         private control: NgControl
     ) { }
+    
+    /*when loading dynamically data to the input, without this 
+    the mask will only work on keyup event changes */
+    @HostListener('change') ngOnChanges() {
+        let value = this.control.control.value;
 
+        this.control.control.setValue(this.format(value));
+    }
+    
     @HostListener('keyup', ['$event'])
     onKeyUp($event: any) {
         if ($event.keyCode !== 13 && $event.keyCode !== 9) {
