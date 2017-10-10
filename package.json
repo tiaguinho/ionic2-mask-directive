@@ -1,6 +1,6 @@
 {
   "name": "ionic2-mask-directive",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "directive for mask ion-input on ionic2",
   "main": "index.js",
   "scripts": {
