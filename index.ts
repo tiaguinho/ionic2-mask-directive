@@ -16,8 +16,9 @@ export class Ionic2MaskDirective {
     the mask will only work on keyup event changes */
     @HostListener('change') ngOnChanges() {
         let value = this.control.control.value;
-
-        this.control.control.setValue(this.format(value));
+        if (value) {
+            this.control.control.setValue(this.format(value));
+        }
     }
     
     @HostListener('keyup', ['$event'])
