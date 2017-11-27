@@ -33,11 +33,11 @@ export class Ionic2MaskDirective {
     private format(v: string): string {
         let s: string = '';
 
-        const matches = v.match(/[a-zA-Z0-9]+/g);
+        var matches = v.match(/[a-zA-Z0-9]+/g);
         if (matches !== null) {
             let value = matches.join('').split('');
 
-            const chars = this.mask.split('');
+            var chars = this.mask.split('');
             for (let c of chars) {
                 if (value.length === 0) {
                     break;
