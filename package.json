@@ -1,11 +1,13 @@
 {
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "ionic2-mask-directive",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "directive for mask ion-input on ionic2",
   "main": "index.js",
   "scripts": {
     "build": "tsc --noStrictGenericChecks",
     "prepublish": "npm run build",
+    "packagr": "ng-packagr -p package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,10 +25,16 @@
     "url": "https://github.com/tiaguinho/ionic2-mask-directive/issues"
   },
   "homepage": "https://github.com/tiaguinho/ionic2-mask-directive#readme",
-  "devDependencies": {
-    "typescript": "^2.6.2"
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts"
+    }
   },
-  "peerDependencies": {
+  "devDependencies": {
+    "typescript": "^2.6.2",
+    "ng-packagr": "^1.6.0"
+  },
+  "dependencies": {
     "@angular/common": "5.2.2",
     "@angular/compiler": "5.2.2",
     "@angular/compiler-cli": "5.2.2",
