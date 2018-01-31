@@ -35,15 +35,15 @@
     "ng-packagr": "^1.6.0"
   },
   "dependencies": {
-    "@angular/common": "5.2.1",
-    "@angular/compiler": "5.2.1",
-    "@angular/compiler-cli": "5.2.1",
-    "@angular/core": "5.2.1",
-    "@angular/forms": "5.2.1",
-    "@angular/http": "5.2.1",
-    "@angular/platform-browser": "5.2.1",
-    "@angular/platform-browser-dynamic": "5.2.1",
-    "rxjs": "5.4.0",
-    "zone.js": "0.8.12"
+    "@angular/common": "5.2.2",
+    "@angular/compiler": "5.2.2",
+    "@angular/compiler-cli": "5.2.2",
+    "@angular/core": "5.2.2",
+    "@angular/forms": "5.2.2",
+    "@angular/http": "5.2.2",
+    "@angular/platform-browser": "5.2.2",
+    "@angular/platform-browser-dynamic": "5.2.2",
+    "rxjs": "5.5.6",
+    "zone.js": "0.8.20"
   }
 }
